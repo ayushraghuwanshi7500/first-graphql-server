@@ -1,0 +1,20 @@
+{
+  "name": "first-graphql-server",
+  "version": "1.0.0",
+  "description": "Simple graphql server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server":"json-server --watch data.json"
+  },
+  "author": "Ayush Raghuwanshi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.7"
+  }
+}
